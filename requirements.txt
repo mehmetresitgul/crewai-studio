@@ -1,0 +1,6 @@
+crewai>=0.80.0
+fastapi
+uvicorn[standard]
+pdfplumber
+python-multipart
+sse-starlette

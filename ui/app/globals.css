@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0f0f17;
+  --surface: #16161f;
+  --surface2: #1e1e2e;
+  --border: #2a2a3a;
+  --text: #e2e2f0;
+  --muted: #6b6b8a;
+  --accent: #7c6af7;
+  --accent-glow: rgba(124,106,247,0.15);
+  --green: #3dd68c;
+  --red: #f77070;
+  --yellow: #f7c948;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--text);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+::selection { background: var(--accent-glow); }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slide-up { animation: slide-up 0.25s ease both; }
+
+.prose-result h1,
+.prose-result h2,
+.prose-result h3 { color: var(--text); margin: 1rem 0 0.5rem; font-weight: 600; }
+.prose-result p  { margin: 0.5rem 0; line-height: 1.7; color: #c5c5df; }
+.prose-result ul,
+.prose-result ol { padding-left: 1.4rem; margin: 0.5rem 0; }
+.prose-result li { margin: 0.25rem 0; color: #c5c5df; }
+.prose-result strong { color: var(--text); font-weight: 600; }

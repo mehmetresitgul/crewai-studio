@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.local
+
+# crewAI repo (cloned separately, not part of this project)
+crewAI/
+
+# Streamlit (removed)
+app.py
+
+# Node
+ui/node_modules/
+ui/.next/
+ui/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
