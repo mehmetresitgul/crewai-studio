@@ -1,67 +1,101 @@
-# Yapay Zeka: Kapsamlı Durum Raporu
+# Yapay Zeka: Kapsamlı Araştırma Raporu
 
 **Hazırlayan:** Yapay Zeka Rapor Analisti
-**Tarih:** 2025
-**Kapsam:** Küresel Yapay Zeka Ekosistemi — Teknoloji, Ekonomi, Etik ve Gelecek Öngörüleri
+**Tarih:** Mayıs 2025
+**Konu:** Yapay Zekanın Mevcut Durumu, Gelişimi ve Geleceği
 
 ---
 
-## GİRİŞ
+## 1. GİRİŞ
 
-Yapay zeka (YZ), insan zekasını taklit eden ve simüle eden bilgisayar sistemlerinin geliştirilmesine odaklanan bir bilgisayar bilimi dalı olarak 1956 yılında John McCarthy tarafından resmi olarak tanımlanmıştır. O günden bu yana teknoloji birden fazla "kış" dönemi ve hayal kırıklığı yaşamış; ancak 2017 sonrasında transformatif bir ivme kazanmıştır. 2022'de ChatGPT'nin piyasaya sürülmesiyle birlikte yapay zeka artık yalnızca araştırma laboratuvarlarının değil, milyonlarca sıradan kullanıcının gündelik hayatının parçası hâline gelmiştir.
+Yapay zeka (YZ), on yıllar önce akademik bir hayal olarak doğan, bugün ise milyarlarca insanın gündelik yaşamını derinden etkileyen bir teknolojik gerçekliğe dönüşmüştür. İnsan zekasını taklit etmek amacıyla tasarlanan bu sistemler; öğrenme, problem çözme, dil anlama ve görsel algılama gibi karmaşık görevleri artık yüksek bir başarı oranıyla yerine getirebilmektedir.
 
-Bu rapor, yapay zekanın günümüzdeki teknolojik durumunu, ekonomik boyutlarını, etik ve toplumsal etkilerini ile geleceğe yönelik öngörüleri bütüncül bir perspektiften ele almaktadır. Araştırma verileri, mevcut durumu ve olası gelişme yörüngelerini anlamak isteyen karar vericiler, araştırmacılar ve ilgili kamuoyu için yapılandırılmış bir biçimde sunulmuştur.
+Yapay zekanın resmi tarihi, 1956 yılında John McCarthy'nin Dartmouth Konferansı'nda bu kavramı bir akademik disiplin olarak tanımlamasıyla başlar. Ancak asıl ivme, 2012'de derin öğrenme devriminin fitilini ateşleyen AlexNet çalışmasıyla kazanılmış; 2022'de ChatGPT'nin 5 günde 1 milyon, 2 ayda 100 milyon kullanıcıya ulaşmasıyla da alan, kamuoyunun en geniş ilgisini çeken teknoloji haline gelmiştir.
 
----
-
-## ANA BULGULAR
-
-### 1. Teknolojik Olgunluk ve Mimari Dönüşüm
-
-Günümüz yapay zeka sistemlerinin temelinde, 2017 yılında Google Brain tarafından geliştirilen Transformer mimarisi yatmaktadır. Bu mimari, dizi verilerini paralel olarak işleyen "öz-dikkat" (self-attention) mekanizmasıyla bir devrim niteliği taşımakta ve GPT-4, Claude, Gemini gibi tüm modern büyük dil modellerinin (LLM) temelini oluşturmaktadır.
-
-Mevcut sistemler birkaç kritik eksende olgunlaşmıştır. Çok modlu entegrasyon açısından bakıldığında, artık yalnızca metin değil; görüntü, ses ve video gibi farklı veri türlerini aynı anda işleyebilen sistemler kullanıma sunulmuştur (GPT-4o, Gemini 1.5 Pro, Claude 3). Bağlam penceresi kapasitesi bakımından Gemini 1.5 Pro artık 1 milyon token uzunluğunda belgeleri işleyebilmekte; bu da YZ'nin gerçek dünya belgelerini ve uzun bağlamlı görevleri ele alabildiği anlamına gelmektedir. Akıl yürütme yetenekleri konusunda ise OpenAI o1/o3 serisi gibi modeller, adım adım düşünme (chain-of-thought) yöntemiyle matematik ve kodlamada insan üstü performansa ulaşmıştır. Ajansal sistemler alanında bugünün YZ sistemleri yalnızca soru yanıtlamakla kalmayıp web tarama, kod çalıştırma ve araç kullanma gibi çok adımlı görevleri bağımsız olarak planlayıp yürütebilmektedir.
-
-Öne çıkan kurumlar ve ürünler şunlardır: OpenAI (GPT-4o, o1/o3, Sora), Anthropic (Claude 3 serisi, Claude 4 ailesi), Google DeepMind (Gemini), Meta (LLaMA 3 — açık kaynak liderliği), Mistral AI (Avrupa merkezli), xAI ve Çin'den DeepSeek R1 gibi açık modeller.
-
-### 2. Ekonomik Boyut ve Pazar Dinamikleri
-
-Yapay zekanın ekonomik ölçeği, tarihsel teknoloji dönüşümleriyle kıyaslanabilir bir büyüklüğe ulaşmıştır. 2024 itibarıyla küresel YZ pazarı yaklaşık 200 milyar dolar seviyesindedir. Öngörüler, 2030'da bu rakamın 1,8 trilyon dolara ulaşabileceğine işaret etmektedir; daha muhafazakâr tahminler ise 2027 için 407 milyar dolarlık bir büyüklük öngörmektedir.
-
-Yatırım akışları da bu büyümeyi doğrulamaktadır. 2023'te küresel YZ girişimlerine yönelik özel yatırım 90 milyar doları aşmıştır. Microsoft'un OpenAI'ye 13 milyar dolar, Google'ın Anthropic'e 2 milyar dolar yatırım yapması, stratejik bahislerin büyüklüğünü göstermektedir. Altyapı tarafında ise Nvidia, YZ çip pazarında yüzde 80'i aşan pazar payıyla kritik bir tedarikçi konumuna yerleşmiştir.
-
-İşgücü piyasasında dönüşüm de kaçınılmaz görünmektedir. McKinsey raporlarına göre 2030'a kadar 400 ila 800 milyon iş pozisyonu otomasyona açık hâle gelecektir. Öte yandan "prompt engineering", "YZ ürün yöneticisi", "YZ etik sorumlusu" ve "ML operasyon mühendisi" gibi yeni meslek kategorileri hızla büyümektedir.
-
-### 3. Uygulama Alanlarının Genişliği
-
-YZ'nin uygulama yelpazesi, neredeyse tüm sektörleri kapsar hâle gelmiştir. Sağlıkta, AlphaFold2 protein yapısı tahminleriyle bir devrimi ateşlemiş; tıbbi görüntü analizi, ilaç keşfi ve robotik cerrahi yardımcı sistemleri klinik pratiğe girmektedir. Eğitimde kişiselleştirilmiş öğrenme deneyimleri ve akıllı öğretim sistemleri yaygınlaşmaktadır. Finansta dolandırıcılık tespiti, algoritmik ticaret ve risk modellemesi standartta kullanılmaktadır. Üretim sektöründe öngörücü bakım ve kalite kontrol sistemleri verimlilik sağlamaktadır. Bilimsel araştırmada AlphaProof ile matematiksel teorem kanıtlama ve iklim modelleme gibi uygulamalar yeni kapılar aralamaktadır.
-
-Bu geniş kapsam, YZ'nin yalnızca bir teknoloji aracı olmadığını; sektörel paradigmaları köklü biçimde yeniden şekillendiren bir dönüşüm güçü olduğunu ortaya koymaktadır.
-
-### 4. Etik Riskler ve Çözümsüz Sorunlar
-
-Yapay zekanın ilerlemesine paralel olarak ciddi etik ve teknik sorunlar da gündemin üst sıralarına yerleşmiştir. Bu sorunların başında önyargı ve adalet gelmektedir: eğitim verilerindeki önyargılar modellere yansımakta, ırk, cinsiyet ve sosyoekonomik statü gibi faktörlerde ayrımcı sonuçlara yol açabilmektedir. Şeffaflık konusundaki "kara kutu" problemi sürmektedir; derin öğrenme modellerinin karar süreçleri büyük ölçüde yorumlanamaz durumdadır. Halüsinasyon (yanlış bilgi üretme) sorunu, LLM'lerin güvenilir bilgi kaynağı olarak kullanılmasının önündeki temel engeldir. Deepfake ve dezenformasyon ise gerçekçi sahte içerik üretme kapasitesiyle seçim süreçleri ve kamusal söylem üzerinde ciddi bir tehdit oluşturmaktadır. Çevresel etki açısından bakıldığında, GPT-3'ün eğitiminin yaklaşık 1.287 MWh enerji tükettiği ve 500 tonun üzerinde CO₂ eşdeğeri sera gazı yaydığı bilinmektedir. Hizalama sorunu bakımından ise sistemlerin insan değerleriyle uyumlu kalmasının sağlanması, AGI araştırmalarının en kritik açık sorusu olmayı sürdürmektedir.
-
-### 5. Düzenleyici Ortam ve Politika Yaklaşımları
-
-Küresel düzenleyici çerçeve henüz olgunlaşma sürecindedir, ancak belirleyici adımlar atılmıştır. Avrupa Birliği'nin 2024'te yürürlüğe giren YZ Yasası (EU AI Act), dünyanın ilk kapsamlı YZ düzenlemesi olarak uygulamaları risk düzeyine göre sınıflandırmaktadır: kabul edilemez risk (yasaklı), yüksek risk (sıkı denetim), sınırlı risk ve minimum risk. ABD'de Biden yönetiminin 2023 YZ Yürütme Emri ve NIST Risk Yönetimi Çerçevesi gönüllü standartlar sunmaktadır. Çin ise üretici YZ hizmetleri için kayıt zorunluluğu ve içerik denetimi uygularken 2030'da küresel YZ liderliğini hedeflediğini açıkça ilan etmiştir. OECD, G7 ve BM platformlarında uluslararası koordinasyon çabaları sürmektedir.
-
-### 6. Türkiye'nin Konumu
-
-Türkiye, 2021–2025 Ulusal Yapay Zeka Stratejisi çerçevesinde sistematik bir yapılanmaya gitmiştir. Dijital Dönüşüm Ofisi koordinasyonunda yürütülen çalışmalar, ODTÜ, Boğaziçi, Bilkent ve Koç Üniversitesi gibi kurumların güçlü araştırma gruplarıyla desteklenmektedir. Savunma sanayiinde ASELSAN ve ROKETSAN, ticari sektörde ise Arçelik, Türk Telekom ve Trendyol önemli YZ entegrasyon projeleri yürütmektedir. Dil teknolojileri alanında Türkçe BERT ve BERTürk gibi özelleştirilmiş NLP modellerine yönelik çalışmalar hız kazanmıştır. Ancak Türkiye'nin küresel rekabette yer alabilmesi için insan kaynağı geliştirme, araştırma finansmanı ve özel sektör yatırımlarında daha büyük ölçekli adımlara ihtiyaç duyulduğu görülmektedir.
+Bu rapor; mevcut araştırma verilerini sistematik biçimde inceleyerek yapay zekanın teknik boyutlarını, uygulama alanlarını, etik tartışmalarını, düzenleyici çerçevesini ve geleceğe dair öngörüleri yapılandırılmış bir şekilde sunmayı amaçlamaktadır.
 
 ---
 
-## SONUÇ
+## 2. ANA BULGULAR
 
-Yapay zeka, yetmişi aşkın yıllık gelişim sürecinde pek çok döngüsel hayal kırıklığı yaşamış; ancak 2017 sonrasında niteliksel olarak farklı bir dönüşüm geçirmiştir. Bu kez fark, milyonlarca kullanıcının gerçek dünya koşullarında etkin biçimde kullandığı ticari ölçekteki sistemlerin fiilen var olmasıdır. Teknoloji artık yalnızca bir araştırma vaadi değil, ekonomik ve toplumsal bir gerçekliktir.
+### 2.1 Teknolojik Olgunluk ve Alt Dallar
 
-Bununla birlikte, tablo hem olağanüstü fırsatlar hem de ciddi riskler barındırmaktadır. Sağlık, eğitim ve bilim gibi alanlarda dönüştürücü bir potansiyel taşıyan yapay zeka; önyargı, dezenformasyon, güvenlik açıkları ve istihdam dönüşümü gibi yapısal sorunları da beraberinde getirmektedir. Yoshua Bengio, Geoffrey Hinton ve Stuart Russell gibi alanın önde gelen isimlerinin uzun vadeli riskler konusundaki uyarıları, bu teknolojinin sorumluluk bilinciyle yönetilmesi gerektiğine işaret etmektedir.
+Araştırma verileri, yapay zekanın tek bir teknoloji olmadığını; birbiriyle bütünleşik birden fazla alt daldan oluşan geniş bir ekosistem olduğunu ortaya koymaktadır. Makine öğrenimi, derin öğrenme, doğal dil işleme (NLP), bilgisayarlı görü, robotik ve uzman sistemler bu ekosistemin temel bileşenlerini oluşturmaktadır.
 
-Kısa vadede (2025–2027), çok modlu ajanların yaygınlaşması ve YZ'nin mesleki iş akışlarına derin entegrasyonu beklenmektedir. Orta vadede (2027–2032), bilimsel araştırmada YZ'nin temel araç hâline gelmesi ve sağlık ile eğitimde köklü dönüşümler öngörülmektedir. Uzun vadede ise insanlık, yapay zekanın genel zekâya ne ölçüde ulaşacağını ve bu sürecin nasıl yönetileceğini deneyimleyecektir.
+Yetenek düzeyi açısından değerlendirildiğinde, bugün sahip olunan teknolojilerin tamamı "Dar Yapay Zeka" (ANI) kategorisinde yer almaktadır. Bu sistemler, belirli görevlerde insan performansını aşabilmektedir; ancak birden fazla alanda insana özgü esnekliği sergileyen Genel Yapay Zeka (AGI) henüz teorik düzeyde kalmaktadır.
 
-Sonuç olarak, yapay zeka insanlığın bugüne kadar geliştirdiği en güçlü araçlarla yüz yüze geldiğini açıkça ortaya koymaktadır. Bu güç; teknolojik yetkinliği, etik sorumluluğu, düzenleyici olgunluğu ve uluslararası iş birliğini eş zamanlı olarak gerektirmektedir. Hem karar vericiler hem de toplumlar için doğru yaklaşım; ne teknolojik gelişmeyi frenlemek ne de riskleri göz ardı etmek, aksine bilinçli, kapsayıcı ve öngörülü bir yol haritasıyla bu dönüşümü yönetmektir.
+### 2.2 Güncel Gelişmeler: 2024-2025 Dönemi
+
+Araştırma verilerinin en dikkat çekici bulgularından biri, 2024-2025 döneminin yapay zeka tarihindeki en hızlı ilerleme evresini temsil ettiğidir. Bu dönemde öne çıkan gelişmeler şu başlıklar altında toplanabilir:
+
+**Büyük Dil Modelleri (LLM):** OpenAI'ın GPT-4o, Google DeepMind'ın Gemini 1.5 Pro, Anthropic'in Claude 3 serisi ve Meta'nın açık kaynak Llama 3 modeli, rekabeti olağanüstü bir hıza taşımıştır. Bu modeller artık yalnızca metin değil; ses, görüntü ve videoyu da anlayıp üretebilen çok modlu (multimodal) yeteneklere sahiptir.
+
+**Akıl Yürütme Kapasitesi:** OpenAI'ın o1/o3 modelleri, zincir-düşünce (chain-of-thought) yöntemiyle matematik ve kodlama alanlarında insan uzmanlarını geride bırakacak sonuçlar üretmiştir. DeepMind'ın AlphaProof ve AlphaGeometry sistemleri ise Uluslararası Matematik Olimpiyatı problemlerini çözmeyi başarmıştır. AlphaFold 3, protein yapısı tahmininin ötesine geçerek DNA, RNA ve küçük molekülleri modelleme kapasitesi kazanmıştır.
+
+**Ajan Sistemleri:** Görevleri adım adım planlayan, araç kullanan, web'de gezen ve kod çalıştıran otonom ajan sistemleri kurumsal uygulamalarda hızla yaygınlaşmaktadır. OpenAI Operator, Anthropic Claude Computer Use ve Google Project Mariner bu alandaki öncü projeler arasındadır.
+
+**Yaratıcı İçerik Üretimi:** Sora (OpenAI) metin komutlarından gerçekçi video üretirken; DALL-E 3, Midjourney v6 ve Stable Diffusion 3 görüntü üretiminde çıta yükseltmeye devam etmektedir. ElevenLabs ve Suno gibi araçlar ise ses klonlama ve müzik üretimini demokratikleştirmiştir.
+
+### 2.3 Uygulama Alanları: Sektörel Dönüşüm
+
+Yapay zekanın sektörel yayılımı, araştırma verilerinde en geniş yeri kaplayan bulgular arasındadır. Temel sektörlerdeki dönüşümler aşağıda özetlenmektedir:
+
+**Sağlık:** Radyoloji görüntülerinden kanser tespiti, AlphaFold destekli ilaç keşfi, hasta risk puanlaması ve cerrahi robotik asistanlar bu alandaki dönüşümün somut göstergeleridir. Kişiselleştirilmiş tıp ve genomik analiz uygulamaları giderek klinik pratiğe yaklaşmaktadır.
+
+**Eğitim:** Khan Academy'nin Khanmigo aracı ve Duolingo'nun Max özelliği, uyarlanabilir öğrenme modelini yaygınlaştırmaktadır. Otomatik değerlendirme ve geri bildirim sistemleri öğretmenin yükünü azaltırken, öğrenci başarı tahmin modelleri erken müdahaleye olanak tanımaktadır.
+
+**Finans:** Mastercard ve Visa gibi küresel ödeme sistemleri dolandırıcılık tespitinde yapay zekayı aktif olarak kullanmaktadır. Algoritmik ticaret, kredi risk analizi ve piyasa duygu analizi sektörde standart araçlara dönüşmüştür.
+
+**Üretim ve Endüstri:** Öngörümlü bakım ve görüntü tabanlı kalite kontrol, üretim hatlarında duruş sürelerini önemli ölçüde azaltmaktadır. Boston Dynamics ve Agility Robotics'in insansı robotları, fabrika ortamlarında insan ile makine iş birliğinin sınırlarını zorlamaktadır.
+
+**Bilimsel Araştırma:** Yapay zekanın bilimsel keşifteki rolü giderek genişlemektedir. Google DeepMind'ın GraphCast modeli hava tahmininde çığır açarken; Isomorphic Labs ve Recursion Pharmaceuticals ilaç adayı keşfini hızlandırmaktadır. Nükleer füzyon reaktörlerinde plazma kontrolü için yapay zeka algoritmalarının kullanılması ise enerji araştırmalarının seyrini değiştirme potansiyeli taşımaktadır.
+
+### 2.4 Etik Kaygılar ve Güvenlik Riskleri
+
+Araştırma verileri, teknolojik ilerlemenin yanı sıra ciddi etik ve güvenlik sorunlarının da hız kesmeden büyüdüğünü göstermektedir.
+
+**Önyargı ve Ayrımcılık:** Eğitim verilerindeki tarihsel önyargılar modellere aktarılmakta; işe alım, kredi değerlendirmesi ve yargı gibi kritik alanlarda sistematik adaletsizliklere zemin hazırlayabilmektedir.
+
+**Şeffaflık Açığı:** Büyük modellerin karar mekanizmaları "kara kutu" niteliği taşımakta olup Açıklanabilir Yapay Zeka (XAI) araştırmaları bu sorunu henüz tam anlamıyla çözüme kavuşturamamıştır.
+
+**Hallüsinasyon:** Modellerin yanlış ama son derece güvenilir görünen bilgiler üretmesi, özellikle sağlık, hukuk ve gazetecilik gibi hassas alanlarda ciddi riskler doğurmaktadır.
+
+**Deepfake ve Dezenformasyon:** Gerçekçi sahte video, ses ve görüntü üretiminin seçim süreçlerine müdahale gibi toplumsal zararlara kapı araladığı belgelenmiş bir gerçektir.
+
+**İstihdam Dönüşümü:** Dünya Ekonomik Forumu'nun tahminlerine göre 2025-2030 arasında otomasyon 85 milyon işi ortadan kaldırabilecek; buna karşın 97 milyon yeni iş pozisyonu oluşacaktır. Net artış umut verici görünse de geçiş döneminin toplumsal maliyeti göz ardı edilmemelidir.
+
+**Hizalama Sorunu:** Gelişmiş yapay zeka sistemlerinin insan değerleri ve hedefleriyle uyumlu kalmasını sağlamak, uzun vadeli en kritik araştırma gündemlerinden biri olmaya devam etmektedir.
+
+### 2.5 Düzenleyici Çerçeve: Küresel Yanıt
+
+Yapay zekanın yarattığı riskler, dünya genelinde düzenleyici girişimleri hızlandırmıştır. Avrupa Birliği, 2024 yılında yürürlüğe giren AI Yasası (AI Act) ile risk tabanlı, kapsamlı bir düzenleyici çerçeve oluşturan ilk büyük ekonomi olmuştur. Gerçek zamanlı biyometrik gözetim ve sosyal puanlama gibi uygulamalar bu yasa kapsamında yasaklanmıştır.
+
+ABD'de Biden döneminde çıkarılan yürütme emri güvenli yapay zeka geliştirme standartlarını belirlemiş; NIST'in AI Risk Yönetim Çerçevesi sektöre yol gösterici bir referans noktası sunmuştur. Çin ise üretken yapay zeka yönetmelikleriyle iç pazarı düzenlerken 2030'a kadar küresel yapay zeka liderliğini hedef olarak benimsemiştir. BM ise 2024'te başlattığı Yapay Zeka Yönetişim Küresel Diyaloğu ile uluslararası iş birliği zeminini oluşturmaya çalışmaktadır.
+
+### 2.6 Ekosistem ve Ekonomik Boyut
+
+Yapay zeka ekosistemi son derece yoğunlaşmış bir yapı sergilemeye devam etmektedir. OpenAI, Google DeepMind, Anthropic, Meta AI ve Microsoft; araştırma kapasitesi, hesaplama altyapısı ve yetenek havuzu açısından rakipsiz konumlarını korumaktadır. Bununla birlikte Mistral AI, Hugging Face, Cohere ve Perplexity AI gibi girişimler nişleşmiş alanlarda rekabeti canlı tutmaktadır.
+
+Ekonomik boyut da çarpıcı büyüklükler ortaya koymaktadır. 2023 yılında küresel yapay zeka girişimlerine 91 milyar dolar yatırım yapılmış; 2024'te bu rakamın 150 milyar doları aşması beklenmektedir. Nvidia'nın piyasa değerinin yapay zeka çiplerine olan taleple 3 trilyon dolara yaklaşması ise altyapı talebinin boyutunu somutlaştırmaktadır. GPT-4 ölçeğinde bir modelin eğitim maliyetinin 100 milyon doların üzerinde olduğu tahmin edilmekte; bu durum hesaplama altyapısını belirleyici bir rekabet faktörü haline getirmektedir.
+
+### 2.7 Türkiye'nin Konumu
+
+Türkiye, Ulusal Yapay Zeka Stratejisi (2021-2025) ile bu alanı stratejik öncelik olarak resmileştirmiştir. BAYKAR ve ASELSAN otonom sistemler ile görüntü tanıma konusunda önemli adımlar atmakta; TEKNOFEST yerli yapay zeka projelerinin gelişimi için önemli bir ekosistem işlevi üstlenmektedir. Akademik alanda Boğaziçi, ODTÜ, Bilkent ve Sabancı üniversiteleri yapay zeka araştırmalarında öne çıkmaktadır. Türkçe NLP çalışmalarının hız kazanması ve AB AI Act'ın ulusal mevzuata uyarlanması süreci, ülkenin bu alandaki kurumsal kapasitesini güçlendirecek kritik adımlar olarak değerlendirilmektedir.
 
 ---
 
-*Bu rapor, mevcut araştırma verilerine dayalı olarak hazırlanmış olup yapay zeka alanındaki hızlı gelişmeler göz önünde bulundurularak düzenli olarak güncellenmesi önerilmektedir.*
+## 3. SONUÇ VE DEĞERLENDİRME
+
+Araştırma bulguları bir bütün olarak değerlendirildiğinde, yapay zekanın artık bir laboratuvar teknolojisi olmaktan çıkarak küresel ölçekte ekonomileri, iş süreçlerini ve toplumsal yapıları yeniden biçimlendiren dönüştürücü bir güç haline geldiği açıkça görülmektedir.
+
+2022-2025 döneminde yaşanan ilerleme hızı, alandaki uzmanları dahi şaşırtmış; büyük dil modellerinin yetenekleri birçok beklentinin çok ötesine geçmiştir. Sağlıktan eğitime, finanstan bilimsel araştırmaya kadar hemen her sektörde yapay zekanın verimliliği artırdığı, yeni olanaklar yarattığı ve köklü dönüşümlere zemin hazırladığı gözlemlenmektedir.
+
+Öte yandan bu hızlı ilerleme, çözüme kavuşturulmayı bekleyen ciddi soruları beraberinde getirmektedir. Önyargı, şeffaflık, gizlilik, dezenformasyon ve iş gücü dönüşümü gibi etik ve toplumsal boyutlar, teknolojik gelişmeyle eş zamanlı ele alınması zorunlu gündem maddeleridir. Düzenleyici çerçevelerin oluşturulmasında atılan adımlar olumlu olmakla birlikte, teknolojinin yayılma hızı mevzuat kapasitesini aşmaya devam etmektedir.
+
+Uzun vadede en belirleyici soru, Genel Yapay Zeka'ya (AGI) giden yolun nasıl yönetileceğidir. Bu sürecin güvenli, şeffaf ve kapsayıcı biçimde yürütülmesi; yalnızca teknolojik bir tercih değil, aynı zamanda derin bir insani sorumluluk olarak öne çıkmaktadır.
+
+Sonuç itibarıyla yapay zekanın geleceği, bu teknolojiyi kimin geliştirdiğiyle değil; nasıl geliştirdiğiyle ve kimin yararına sunduğuyla şekillenecektir. Araştırma verilerinin tamamı göstermektedir ki insanlık, tarihinin en dönüştürücü teknolojik sıçramasının tam ortasında bulunmaktadır ve bu süreci bilinçli bir şekilde yönlendirme sorumluluğu, bugün alınan kararların üzerine yüklüdür.
+
+---
+
+*Bu rapor, Yapay Zeka Rapor Analisti tarafından mevcut araştırma verileri temel alınarak Mayıs 2025 itibarıyla hazırlanmıştır.*
