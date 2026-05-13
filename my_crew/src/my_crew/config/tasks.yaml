@@ -1,0 +1,16 @@
+research_task:
+  description: >
+    {topic} hakkında kapsamlı bir araştırma yap.
+    Temel kavramları, güncel gelişmeleri ve önemli bilgileri derle.
+  expected_output: >
+    {topic} ile ilgili maddeler halinde düzenlenmiş kapsamlı bir araştırma özeti.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Araştırma bulgularını inceleyerek Türkçe, yapılandırılmış bir rapor oluştur.
+    Rapor giriş, ana bulgular ve sonuç bölümlerinden oluşmalı.
+  expected_output: >
+    Türkçe, markdown formatında, bölümlere ayrılmış tam bir rapor.
+  agent: reporting_analyst
+  output_file: report.md
